@@ -1,26 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MatTableModule } from '@angular/material/table';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CoviddataComponent } from './coviddata/coviddata.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HttpClientModule } from '@angular/common/http';
-import { CountryspecComponent } from './countryspec/countryspec.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { ImagesComponent } from './images/images.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CoviddataComponent,
-    CountryspecComponent
+    ImagesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatTableModule,
-    HttpClientModule
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

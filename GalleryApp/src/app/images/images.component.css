@@ -1,0 +1,17 @@
+#imageuploadbutton
+{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.custom-file-input.selected:lang(en)::after {
+    content: "" !important;
+  }
+  
+  .custom-file {
+    overflow: hidden;
+  }
+  
+  .custom-file-input {
+    white-space: nowrap;
+  }
